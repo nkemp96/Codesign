@@ -1,0 +1,88 @@
+14:08:23 **** Build of configuration Debug for project histo ****
+make all 
+Building file: /home/nicholas/ece522/lab0/histo/c_code/Histo.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Histo.o" -MMD -MP -MF"src/Histo.d" -MT"src/Histo.o" -o "src/Histo.o" "/home/nicholas/ece522/lab0/histo/c_code/Histo.c"
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c: In function ‘main’:
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:243:9: warning: unused variable ‘outfile_name’ [-Wunused-variable]
+    char outfile_name[MAX_STRING_LEN];
+         ^~~~~~~~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c: At top level:
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:369:11: error: expected declaration specifiers or ‘...’ before string constant
+    printf("\n\n");
+           ^~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:376:4: warning: data definition has no type or storage class
+    strcpy(temp_str, infile_name);
+    ^~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:376:4: warning: type defaults to ‘int’ in declaration of ‘strcpy’ [-Wimplicit-int]
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:376:4: warning: parameter names (without types) in function declaration
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:376:4: error: conflicting types for ‘strcpy’
+In file included from /home/nicholas/ece522/lab0/histo/c_code/common.h:11:0,
+                 from /home/nicholas/ece522/lab0/histo/c_code/Histo.c:7:
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/libc/usr/include/string.h:125:14: note: previous declaration of ‘strcpy’ was here
+src/subdir.mk:18: recipe for target 'src/Histo.o' failed
+ extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
+              ^~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:377:20: error: ‘infile_name’ undeclared here (not in a function)
+    temp_str[strlen(infile_name) - 3]  = '\0';
+                    ^~~~~~~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:377:4: warning: data definition has no type or storage class
+    temp_str[strlen(infile_name) - 3]  = '\0';
+    ^~~~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:377:4: warning: type defaults to ‘int’ in declaration of ‘temp_str’ [-Wimplicit-int]
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:379:25: error: expected ‘)’ before string constant
+    strcpy(outfile_name, "Output_");
+                         ^~~~~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:380:4: warning: data definition has no type or storage class
+    strcat(outfile_name, temp_str);
+    ^~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:380:4: warning: type defaults to ‘int’ in declaration of ‘strcat’ [-Wimplicit-int]
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:380:4: warning: parameter names (without types) in function declaration
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:380:4: error: conflicting types for ‘strcat’
+In file included from /home/nicholas/ece522/lab0/histo/c_code/common.h:11:0,
+                 from /home/nicholas/ece522/lab0/histo/c_code/Histo.c:7:
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/libc/usr/include/string.h:133:14: note: previous declaration of ‘strcat’ was here
+ extern char *strcat (char *__restrict __dest, const char *__restrict __src)
+              ^~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:381:25: error: expected ‘)’ before string constant
+    strcat(outfile_name, "xy");
+                         ^~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:383:4: error: expected identifier or ‘(’ before ‘if’
+    if ( (OUTFILE = fopen(outfile_name, "w")) == NULL )
+    ^~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:385:4: error: expected identifier or ‘(’ before ‘for’
+    for ( i = 0; i < MAX_HISTO_VALS - 2; i++ )
+    ^~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:385:19: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+    for ( i = 0; i < MAX_HISTO_VALS - 2; i++ )
+                   ^
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:385:42: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+    for ( i = 0; i < MAX_HISTO_VALS - 2; i++ )
+                                          ^~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:387:4: warning: data definition has no type or storage class
+    fclose(OUTFILE);
+    ^~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:387:4: warning: type defaults to ‘int’ in declaration of ‘fclose’ [-Wimplicit-int]
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:387:4: warning: parameter names (without types) in function declaration
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:390:11: error: expected declaration specifiers or ‘...’ before string constant
+    printf("Hardware Computed Mean %.4f\tRange %d\n",
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:391:7: error: expected declaration specifiers or ‘...’ before ‘(’ token
+       (float)histo_arr_out[MAX_HISTO_VALS-2]/precision_scaler, histo_arr_out[MAX_HISTO_VALS-1]);
+       ^
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:391:64: error: unknown type name ‘histo_arr_out’
+       (float)histo_arr_out[MAX_HISTO_VALS-2]/precision_scaler, histo_arr_out[MAX_HISTO_VALS-1]);
+                                                                ^~~~~~~~~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:395:4: error: expected identifier or ‘(’ before ‘if’
+    if ( ((*DataRegA) & (1 << IN_SM_READY)) == 0 )
+    ^~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:398:4: error: expected identifier or ‘(’ before ‘return’
+    return 0;
+    ^~~~~~
+/home/nicholas/ece522/lab0/histo/c_code/Histo.c:399:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [src/Histo.o] Error 1
+
+14:08:24 Build Finished (took 755ms)
+

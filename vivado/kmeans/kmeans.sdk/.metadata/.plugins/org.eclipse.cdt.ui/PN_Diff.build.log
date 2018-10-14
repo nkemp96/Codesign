@@ -1,0 +1,39 @@
+14:42:14 **** Auto Build of configuration Debug for project PN_Diff ****
+make all 
+Building file: /home/nicholas/ece522/lab0/histo/c_code/Histo.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Histo.o" -MMD -MP -MF"src/Histo.d" -MT"src/Histo.o" -o "src/Histo.o" "/home/nicholas/ece522/lab0/histo/c_code/Histo.c"
+Finished building: /home/nicholas/ece522/lab0/histo/c_code/Histo.c
+ 
+Building target: PN_Diff.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "PN_Diff.elf"  ./src/Histo.o   
+Finished building target: PN_Diff.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-gcc PN_Diff.elf  |tee "PN_Diff.elf.size"
+PN_Diff.elf: In function `_fini':
+:(.fini+0x0): multiple definition of `_fini'
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o:(.fini+0x0): first defined here
+PN_Diff.elf: In function `__data_start':
+:(.data+0x0): multiple definition of `__data_start'
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o:init.c:(.data+0x0): first defined here
+PN_Diff.elf: In function `__data_start':
+:(.data+0x4): multiple definition of `__dso_handle'
+Finished building: PN_Diff.elf.size
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o:(.data+0x0): first defined here
+PN_Diff.elf:(.rodata+0x0): multiple definition of `_IO_stdin_used'
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o:(.rodata.cst4+0x0): first defined here
+PN_Diff.elf: In function `_start':
+:(.text+0x0): multiple definition of `_start'
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crt1.o:init.c:(.text+0x0): first defined here
+PN_Diff.elf: In function `_init':
+:(.init+0x0): multiple definition of `_init'
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../arm-linux-gnueabihf/libc/usr/lib/crti.o:(.init+0x0): first defined here
+/opt/Xilinx/SDK/2017.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o:(.tm_clone_table+0x0): multiple definition of `__TMC_END__'
+ 
+PN_Diff.elf::(.data+0x8): first defined here
+collect2: error: ld returned 1 exit status
+
+14:42:16 Build Finished (took 1s.883ms)
+

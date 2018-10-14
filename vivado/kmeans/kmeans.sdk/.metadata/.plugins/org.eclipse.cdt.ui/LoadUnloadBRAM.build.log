@@ -1,0 +1,25 @@
+16:21:51 **** Auto Build of configuration Debug for project LoadUnloadBRAM ****
+make all 
+Building file: /home/nicholas/ece522/lab0/gpio_bram/c_code/LoadUnloadBRAM.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"LoadUnloadBRAM.o" -MMD -MP -MF"LoadUnloadBRAM.d" -MT"LoadUnloadBRAM.o" -o "LoadUnloadBRAM.o" "/home/nicholas/ece522/lab0/gpio_bram/c_code/LoadUnloadBRAM.c"
+/home/nicholas/ece522/lab0/gpio_bram/c_code/LoadUnloadBRAM.c: In function ‘main’:
+/home/nicholas/ece522/lab0/gpio_bram/c_code/LoadUnloadBRAM.c:150:9: warning: unused variable ‘outfile_name’ [-Wunused-variable]
+    char outfile_name[MAX_STRING_LEN];
+         ^~~~~~~~~~~~
+Finished building: /home/nicholas/ece522/lab0/gpio_bram/c_code/LoadUnloadBRAM.c
+ 
+Building target: LoadUnloadBRAM.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "LoadUnloadBRAM.elf"  ./LoadUnloadBRAM.o   
+Finished building target: LoadUnloadBRAM.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size LoadUnloadBRAM.elf  |tee "LoadUnloadBRAM.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   4124	    336	      8	   4468	   1174	LoadUnloadBRAM.elf
+Finished building: LoadUnloadBRAM.elf.size
+ 
+
+16:21:54 Build Finished (took 2s.702ms)
+

@@ -1,0 +1,285 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 6420
+License: Customer
+
+Current time: 	10/13/18 7:10:33 PM MDT
+Time zone: 	Mountain Standard Time (America/Denver)
+
+OS: NAME="Ubuntu"
+OS Version: 4.15.0-36-generic
+OS Architecture: amd64
+Available processors (cores): 1
+
+Display: :0
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 0 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre
+JVM executable location: 	/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/bin/java
+Java library paths: /opt/Xilinx/Vivado/2017.2/tps/lnx64/libxslt/lib:/opt/Xilinx/Vivado/2017.2/lib/lnx64.o:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64:/opt/Xilinx/Vivado/2017.2/tps/lnx64/jre/lib/amd64/server:/opt/Xilinx/Vivado/2017.2/lnx64/tools/dot/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+
+User name: 	nicholas
+User home directory: /home/nicholas
+User working directory: /home/nicholas/ece522/project/vivado
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2017.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2017.2/bin
+
+User preferences location: /home/nicholas/.Xilinx/Vivado
+Vivado preferences directory: /home/nicholas/.Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: /home/nicholas/.Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	/opt/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	./.Xil/Vivado-6420-nicholas-VirtualBox
+
+GUI allocated memory:	122 MB
+GUI max memory:		3,066 MB
+Engine allocated memory: 585 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 75 MB (+76365kb) [00:00:12]
+// [Engine Memory]: 585 MB (+461867kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 595 MB. GUI used memory: 30 MB. Current time: 10/13/18 7:10:35 PM MDT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x:h (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("/home/nicholas/ece522/project/vivado/kmeans/kmeans.xpr");
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /home/nicholas/ece522/project/vivado/kmeans/kmeans.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [Engine Memory]: 628 MB (+14800kb) [00:01:46]
+// Tcl Message: open_project /home/nicholas/ece522/project/vivado/kmeans/kmeans.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 30 MB. Current time: 10/13/18 7:12:05 PM MDT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 673 MB (+13558kb) [00:01:52]
+// [Engine Memory]: 710 MB (+3937kb) [00:01:57]
+// Tcl Message: open_project /home/nicholas/ece522/project/vivado/kmeans/kmeans.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/nicholas/ece522/lab0/histo/vivado/histo' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 5859.016 ; gain = 76.500 ; free physical = 78 ; free virtual = 2277 
+// Project name: kmeans; location: /home/nicholas/ece522/project/vivado/kmeans; part: xc7z010clg400-1
+// 'i' command handler elapsed time: 20 seconds
+// [GUI Memory]: 89 MB (+10419kb) [00:01:59]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 14 seconds
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 736 MB. GUI used memory: 39 MB. Current time: 10/13/18 7:12:20 PM MDT
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd)]", 3); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd)]", 10); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 2); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd)]", 3); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (design_1_wrapper.vhd) elapsed time: 0.5s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd)]", 1, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+// HMemoryUtils.trashcanNow. Engine heap size: 758 MB. GUI used memory: 42 MB. Current time: 10/13/18 7:13:05 PM MDT
+// [Engine Memory]: 759 MB (+13526kb) [00:02:48]
+selectComboBox(RDIResource.HJFileChooserRecentListPreview_RECENT_DIRECTORIES, "/home/nicholas/ece522/lab0/histo/vhdl", 4); // ak:e (JPanel:JComponent, JDialog:Dialog)
+setFileChooser("/home/nicholas/ece522/lab0/histo/vhdl/design_1_wrapper.vhd");
+// 'dz' command handler elapsed time: 13 seconds
+// TclEventType: DG_GRAPH_STALE
+// bs:g (cg:JFrame):  Replace File : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files /home/nicholas/ece522/lab0/histo/vhdl/design_1_wrapper.vhd -to_files /home/nicholas/ece522/project/vhdl/design_1_wrapper.vhd -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file '/home/nicholas/ece522/project/vhdl/design_1_wrapper.vhd' with file '/home/nicholas/ece522/lab0/histo/vhdl/design_1_wrapper.vhd'. 
+dismissDialog("Replace File"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 778 MB. GUI used memory: 43 MB. Current time: 10/13/18 7:13:25 PM MDT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd)]", 3, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("/home/nicholas/ece522/lab0/histo/vhdl/Top.vhd");
+// 'dz' command handler elapsed time: 3 seconds
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_files -from_files /home/nicholas/ece522/lab0/histo/vhdl/Top.vhd -to_files /home/nicholas/ece522/project/vhdl/Top.vhd -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file '/home/nicholas/ece522/project/vhdl/Top.vhd' with file '/home/nicholas/ece522/lab0/histo/vhdl/Top.vhd'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Replace File : addNotify
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Replace File"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd)]", 3); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd), LoadUnLoadMemMod : LoadUnLoadMem(beh) (LoadUnLoadMem.vhd)]", 4, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+// [Engine Memory]: 797 MB (+91kb) [00:03:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 797 MB. GUI used memory: 39 MB. Current time: 10/13/18 7:13:50 PM MDT
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("/home/nicholas/ece522/lab0/histo/vhdl/LoadUnLoadMem.vhd");
+// 'dz' command handler elapsed time: 3 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Replace File : addNotify
+// Tcl Message: update_files -from_files /home/nicholas/ece522/lab0/histo/vhdl/LoadUnLoadMem.vhd -to_files /home/nicholas/ece522/project/vhdl/LoadUnLoadMem.vhd -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file '/home/nicholas/ece522/project/vhdl/LoadUnLoadMem.vhd' with file '/home/nicholas/ece522/lab0/histo/vhdl/LoadUnLoadMem.vhd'. 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Replace File"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd), HistoMod : Histo(beh) (Histo.vhd)]", 5, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+selectComboBox(RDIResource.HJFileChooserRecentListPreview_RECENT_DIRECTORIES, "/home/nicholas/ece522/project/vivado", 2); // ak:e (JPanel:JComponent, JDialog:Dialog)
+// Elapsed time: 13 seconds
+dismissFileChooser();
+// 'dz' command handler elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd)]", 3, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// as:g (cg:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, as:g)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Remove Sources"); // as:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// as:g (cg:JFrame): Remove Sources: addNotify
+// bs:g (as:g):  Remove Sources : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/nicholas/ece522/lab0/histo/vhdl/Top.vhd 
+dismissDialog("Remove Sources"); // bs:g (as:g)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 833 MB. GUI used memory: 41 MB. Current time: 10/13/18 7:14:40 PM MDT
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 850 MB (+14260kb) [00:04:30]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : xil_defaultlib.Top]", 3, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B:JideButton (f:CommandBar, c:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, c:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 859 MB. GUI used memory: 44 MB. Current time: 10/13/18 7:15:10 PM MDT
+// Elapsed time: 14 seconds
+setFileChooser("/home/nicholas/ece522/project/vhdl/Top.vhd");
+// Elapsed time: 12 seconds
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 38 seconds
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Add Sources  : addNotify
+// Tcl Message: add_files -norecurse /home/nicholas/ece522/project/vhdl/Top.vhd 
+dismissDialog("Add Sources"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 892 MB. GUI used memory: 44 MB. Current time: 10/13/18 7:15:45 PM MDT
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd)]", 3); // B:i (D:JPanel, cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), TopMod : Top(beh) (Top.vhd)]", 3, true, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c:g (cg:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_OR_CREATE_SOURCE_FILE, "Add"); // B:JideButton (f:CommandBar, c:g)
+selectMenuItem(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files..."); // ac:JMenuItem (ai:JPopupMenu, c:g)
+// [Engine Memory]: 893 MB (+25kb) [00:06:00]
+// Elapsed time: 13 seconds
+String[] filenames31467 = {"/home/nicholas/ece522/project/vhdl/CalcAllDistances.vhd", "/home/nicholas/ece522/project/vhdl/CalcTotalDistance.vhd", "/home/nicholas/ece522/project/vhdl/FindClosestCentroid.vhd", "/home/nicholas/ece522/project/vhdl/Kmeans.vhd"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, c:g)
+// 'h' command handler elapsed time: 21 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Add Sources"); // c:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// bs:g (cg:JFrame):  Add Sources  : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -norecurse {/home/nicholas/ece522/project/vhdl/CalcAllDistances.vhd /home/nicholas/ece522/project/vhdl/CalcTotalDistance.vhd /home/nicholas/ece522/project/vhdl/Kmeans.vhd /home/nicholas/ece522/project/vhdl/FindClosestCentroid.vhd} 
+dismissDialog("Add Sources"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 41 MB. Current time: 10/13/18 7:16:30 PM MDT
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd)]", 3); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd)]", 4); // B:i (D:JPanel, cg:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper(STRUCTURE) (design_1_wrapper.vhd), design_1_i : design_1 (design_1.bd), design_1(STRUCTURE) (design_1.vhd)]", 4); // B:i (D:JPanel, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 932 MB. GUI used memory: 42 MB. Current time: 10/13/18 7:27:10 PM MDT
+// HMemoryUtils.trashcanNow. Engine heap size: 932 MB. GUI used memory: 43 MB. Current time: 10/13/18 7:57:11 PM MDT
+// HMemoryUtils.trashcanNow. Engine heap size: 932 MB. GUI used memory: 43 MB. Current time: 10/13/18 8:27:11 PM MDT
+// HMemoryUtils.trashcanNow. Engine heap size: 933 MB. GUI used memory: 38 MB. Current time: 10/13/18 8:57:12 PM MDT
+// HMemoryUtils.trashcanNow. Engine heap size: 933 MB. GUI used memory: 39 MB. Current time: 10/13/18 9:27:12 PM MDT
+// HMemoryUtils.trashcanNow. Engine heap size: 933 MB. GUI used memory: 39 MB. Current time: 10/13/18 9:57:12 PM MDT
+// HMemoryUtils.trashcanNow. Engine heap size: 933 MB. GUI used memory: 40 MB. Current time: 10/13/18 10:27:12 PM MDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 949 MB (+11983kb) [03:18:31]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 965 MB. GUI used memory: 39 MB. Current time: 10/13/18 10:48:13 PM MDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 997 MB (+756kb) [03:55:22]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 997 MB. GUI used memory: 39 MB. Current time: 10/13/18 11:05:43 PM MDT
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13908 seconds
+closeMainWindow("kmeans - [/home/nicholas/ece522/project/vivado/kmeans/kmeans.xpr] - Vivado 2017.2"); // cg:JFrame
+// x:aN (cg:JFrame): Exit Vivado: addNotify

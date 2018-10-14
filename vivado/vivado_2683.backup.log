@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Oct 12 22:13:18 2018
+# Process ID: 2683
+# Current directory: /home/nicholas/ece522/lab0/histo/vivado
+# Command line: vivado
+# Log file: /home/nicholas/ece522/lab0/histo/vivado/vivado.log
+# Journal file: /home/nicholas/ece522/lab0/histo/vivado/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/nicholas/ece522/lab0/histo/vivado/histo/histo.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2017.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:52 . Memory (MB): peak = 5838.898 ; gain = 20.035 ; free physical = 76 ; free virtual = 2228
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Fri Oct 12 22:24:04 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+[Fri Oct 12 22:24:04 2018] Launched impl_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 22:43:53 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 5972.008 ; gain = 0.000 ; free physical = 111 ; free virtual = 2144
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 22:51:43 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 22:57:51 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 23:06:54 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 23:11:11 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 23:16:06 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 23:30:48 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 23:35:07 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+[Fri Oct 12 23:37:49 2018] Launched synth_1...
+Run output will be captured here: /home/nicholas/ece522/lab0/histo/vivado/histo/histo.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 12 23:56:47 2018...

@@ -1,0 +1,3 @@
+buildConsole/keepLog=true
+buildConsole/logLocation=/home/nicholas/ece522/lab0/gpio_bram/vivado/gpio_bram/gpio_bram.sdk/.metadata/.plugins/org.eclipse.cdt.ui/LoadUnloadBRAM.build.log
+eclipse.preferences.version=1

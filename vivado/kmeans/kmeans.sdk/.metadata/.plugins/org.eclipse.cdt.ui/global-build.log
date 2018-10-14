@@ -1,0 +1,22 @@
+15:38:06 **** Incremental Build of configuration Debug for project Kmeans ****
+make all 
+Building file: /home/nicholas/ece522/project/c_code/kmeans_codesign.c
+Invoking: ARM v7 Linux gcc compiler
+arm-linux-gnueabihf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/kmeans_codesign.o" -MMD -MP -MF"src/kmeans_codesign.d" -MT"src/kmeans_codesign.o" -o "src/kmeans_codesign.o" "/home/nicholas/ece522/project/c_code/kmeans_codesign.c"
+/home/nicholas/ece522/project/c_code/kmeans_codesign.c: In function ‘main’:
+/home/nicholas/ece522/project/c_code/kmeans_codesign.c:683:26: warning: ‘ctrl_mask’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    *CtrlRegA = ctrl_mask | (1 << OUT_CP_RESET);
+                ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+Finished building: /home/nicholas/ece522/project/c_code/kmeans_codesign.c
+ 
+Building target: Kmeans.elf
+Invoking: ARM v7 Linux gcc linker
+arm-linux-gnueabihf-gcc  -o "Kmeans.elf"  ./src/kmeans_codesign.o   
+Finished building target: Kmeans.elf
+ 
+Invoking: ARM v7 Linux Print Size
+arm-linux-gnueabihf-size Kmeans.elf  |tee "Kmeans.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  12240	    360	  33976	  46576	   b5f0	Kmeans.elf
+Finished building: Kmeans.elf.size
+ 
